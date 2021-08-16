@@ -22,6 +22,7 @@
 [Thycotic]()
 
   * [Getting Started](thycotic/getting_started.md)
+  * [Setup MS SQL](thycotic/setup_mssql.md)
   * [Install SecretServer](thycotic/install_secretserver.md)
   * [RabbitMQ](thycotic/rabbitmq.md)
 
