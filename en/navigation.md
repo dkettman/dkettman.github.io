@@ -3,7 +3,7 @@
   -- Do NOT remove the leading `#` character.
   -->
 
-# Your wiki name
+# Dave's Brain Dump
 
 
 <!--
@@ -11,17 +11,28 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser)
   -->
 
-[gimmick:theme](spacelab)
+[gimmick:theme](cosmo)
 
+[General]()
+
+  * [Getting Started](general/getting_started.md)
+
+[Centrify](centrify/index.md)
+
+[Thycotic]()
+
+  * [Getting Started](thycotic/getting_started.md)
+  * [Install SecretServer](thycotic/install_secretserver.md)
+  * [RabbitMQ](thycotic/rabbitmq.md)
 
 <!--
   -- Navigation
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
 
-[About](pages/about.md)
+<!-- [About](pages/about.md)
 [Download](pages/download.md)
-
+-->
 <!-- A more complex navigation example: ----------------------------------------
 
 [Menu Item 1]()
@@ -60,6 +71,4 @@
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
   -->
 
-<!--
 [gimmick:themechooser](Choose theme)
--->
