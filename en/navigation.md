@@ -3,7 +3,7 @@
   -- Do NOT remove the leading `#` character.
   -->
 
-# Dave's Brain Dump
+# Dave's MVP Resource
 
 
 <!--
