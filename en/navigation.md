@@ -29,6 +29,11 @@
   * [Install SecretServer](thycotic/install_secretserver.md)
   * [RabbitMQ](thycotic/rabbitmq.md)
 
+
+[PowerShell]()
+
+  * [One Liners](powershell/one_liners.md)
+  
 <!--
   -- Navigation
   -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
