@@ -32,7 +32,7 @@
 
 [PowerShell]()
 
-  * [One Liners](powershell/one_liners.md)
+  * [One Liners](PowerShell/one_liners.md)
   
 <!--
   -- Navigation
