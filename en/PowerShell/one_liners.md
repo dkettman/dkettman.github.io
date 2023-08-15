@@ -24,3 +24,9 @@ Set-DnsClientServerAddress -InterfaceIndex 6 -ServerAddresses @("172.31.1.10")
 ```powershell
 Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name "fDenyTSConnections" -value 0
 ```
+
+## Map a Network Drive
+You will need to reboot to get it to show up, not sure how to make it show up in session for currently logged in user.
+```powershell
+New-PSDrive -Persist -Name "Z" -Root "\\admin\sharedstorage" -PSProvider FileSystem -Scope Global
+```
