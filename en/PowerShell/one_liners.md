@@ -19,3 +19,8 @@ New-NetIPAddress -InterfaceIndex 6 -IPAddress 172.31.1.207  -PrefixLength 24 -De
 ```pwsh
 Set-DnsClientServerAddress -InterfaceIndex 6 -ServerAddresses @("172.31.1.10")
 ```
+
+## Enable Remote Desktop
+```powershell
+Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name "fDenyTSConnections" -value 0
+```
